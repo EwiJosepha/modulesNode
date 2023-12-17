@@ -1,7 +1,7 @@
-const names = require("./firstmodule")
-const sayhi = require("./utility")
-const data = require("./alternativedata")
 
+module.exports.items = ['item1', 'item2']
+module.exports.person = {
+  name: "josey",
+  age: 26
+}
 
-sayhi(names.john)
-console.log(data);

@@ -1,4 +1,4 @@
-moduleSystemInNodejs
+// moduleSystemInNodejs
 // buy default, node.js has two module system which consist : CommonJS modules and ECMAScript modules.
 
 // CommonJS modules:
@@ -12,4 +12,12 @@ Files with a .js extension or without an extension, when the nearest parent pack
 
 Files with an extension that is not .mjs, .cjs, .json, .node, or .js (when the nearest parent package.json file contains a top-level field "type" with a value of "module", those files will be recognized as CommonJS modules only if they are being included via require(), not when used as the command-line entry point of the program).*/
 
-examples
+// examples
+
+const {names }= require("./modulesrequired")
+const sayhi = require("./utility")
+const data = require("./commonjsmodule")
+
+
+sayhi(names)
+console.log(data)
