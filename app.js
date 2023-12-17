@@ -21,3 +21,11 @@ const data = require("./commonjsmodule")
 
 sayhi(names)
 console.log(data)
+
+
+//ESM modules
+
+ /* The .mjs extension is reserved for ECMAScript Modules which cannot be loaded via require(). See Determining module system section for more info regarding which files are parsed as ECMAScript modules.
+ ECMAScript Modules (ESM) is a specification for using Modules in the Web. It's supported by all modern browsers and the recommended way of writing modular code for the Web. Webpack supports processing ECMAScript Modules to optimize them
+
+*/
