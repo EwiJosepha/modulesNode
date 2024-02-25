@@ -1,0 +1,2 @@
+//here i will like to download mongodb atlas and start to use it .
+//i noticed that i was already going far with node js andexpress without knowing the basics of how to use mongo.db whicch facilitates all deployment, running and production issues
